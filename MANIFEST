@@ -1,0 +1,7 @@
+MANIFEST
+Makefile.PL
+README
+Perlonly.pm
+Tagtable.pm
+test-1.0-1.i686.rpm
+t/getrpmname.t

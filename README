@@ -1,0 +1,44 @@
+Perl-RPM-Perlonly - Native bindings to the RPM package format, without needing rpm.
+
+Version: 1.0
+
+WHAT IS IT:
+
+  Perl-RPM-Perlonly is a clone of RPM::Header written in only perl, so it provides
+  a way to read a rpm package on systems where rpm is installed. Perl-RPM-Perlonly
+  can used as a drop in replacement for RPM::Header, if needed also the other way 
+  around.
+
+  The interface is a tied-hash, there are some tags not provided by RPM::Header but
+  avalible in Perl-RPM-Perlonly.
+
+BUILDING/INSTALLING:
+
+  This package is set up to configure and build like a typical Perl extension.
+  To build:
+    
+    perl Makefile.PL
+    make && make test
+
+  If the RPM package passes all tests, then:
+  
+    make install
+
+You may need super-user access to install.
+
+
+PROBLEMS/BUG REPORTS:
+  
+  Please send any reports of problems or bugs to tlb@rapanden.dk
+
+CHANGES:
+  
+  2001.11.29 - Version 1.0
+    First release.
+
+LICENSE:
+  
+  This package is Copyright (C) 2001 by Troels Liebe Bentsen. 
+  You may redistribute this and/or modify under the terms of 
+  the LGPL License or you can redistribute it and/or modify 
+  it under the same terms as Perl itself. 
