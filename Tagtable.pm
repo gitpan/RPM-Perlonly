@@ -19,6 +19,7 @@ use vars qw(%header_tags);
 		'GROUP'		=>	'UNKNOWN',
 		'NAME'		=>	''
 	},
+
 	
 	2650 =>	{
 	 	'TAGNAME'	=>	'SHA1HEADER',
@@ -26,6 +27,20 @@ use vars qw(%header_tags);
 		'NAME'		=>	'',
 		'TYPE'		=>	1
 	},	
+	
+	2670 =>	{
+	 	'TAGNAME'	=>	'UNKNOWN3',
+		'GROUP'		=>	'UNKNOWN',
+		'NAME'		=>	''
+	},	
+	
+	2690 =>	{
+	 	'TAGNAME'	=>	'UNKNOWN4',
+		'GROUP'		=>	'UNKNOWN',
+		'NAME'		=>	''
+	},
+	
+	
 	
 	100 =>	{
 	 	'TAGNAME'	=>	'DESCRIPTIONLANGS',
@@ -197,6 +212,18 @@ use vars qw(%header_tags);
 		'NAME'		=>	'',
 		'TYPE'		=>	1
 
+	},
+	1131 =>	{
+	 	'TAGNAME'	=>	'RHNPLATFORM',
+		'GROUP'		=>	'INFORMATION',
+		'NAME'		=>	'RHN Platform',
+		'TYPE'		=>	1
+	},
+	1132 =>	{
+	 	'TAGNAME'	=>	'PLATFORM',
+		'GROUP'		=>	'INFORMATION',
+		'NAME'		=>	'RHN Platform',
+		'TYPE'		=>	1
 	},
 	1033 => {
 		'TAGNAME'	=>	'FILERDEVS',

@@ -1,6 +1,6 @@
 Perl-RPM-Perlonly - Native bindings to the RPM package format, without needing rpm.
 
-Version: 1.0
+Version: 1.0.1
 
 WHAT IS IT:
 
@@ -33,6 +33,11 @@ PROBLEMS/BUG REPORTS:
 
 CHANGES:
   
+  2002.07.28 - Version 1.0.1
+   Added some new tags to the Tagtable:
+    PLATFORM, RHNPLATFORM
+    (Credits should go to Marco Fioretti for the information).
+ 
   2001.11.29 - Version 1.0
     First release.
 

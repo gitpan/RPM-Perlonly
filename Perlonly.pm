@@ -4,7 +4,7 @@
 
 package RPM::Perlonly;
 use vars '$VERSION';
-$VERSION = '1.0';
+$VERSION = '1.0.1';
 
 use strict;
 use RPM::Tagtable;
